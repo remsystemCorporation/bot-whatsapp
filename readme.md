@@ -1,5 +1,6 @@
 # Creacion de un bot de WhatsApp CRUD
-
+### ¡¡¡IMPORTANTE!!!
+### DEBES TENER INSTALADO NODE JS
 ### REQUISITOS
 1. Node JS > 18.0
 2. WhatsApp.JS
@@ -113,7 +114,7 @@ npm start
 ![Respuesta en tu chat](./imgs/respuestadelbot.jpg)
 
 
-#### ahora una breve explicacion: cuando nosotros hacemos el *client.on* estamos usando un metodo, este metodo tine varios tipos, por lo cual nosotros usaremos el de *message_create* dentro del metodo, aqui le decimos que usaremos el metodo el cual creara un mensaje y nos respondera
+#### ahora una breve explicacion: cuando nosotros hacemos el *client.on* estamos usando un metodo, este metodo tiene varios tipos, por lo cual nosotros usaremos el de *message_create* dentro del metodo, aqui le decimos que usaremos el metodo el cual creara un mensaje y nos respondera
 ```javascript
 client.on('message_create', message => {
   

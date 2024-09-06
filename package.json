@@ -1,0 +1,16 @@
+{
+  "name": "bot-crud",
+  "version": "1.0.0",
+  "description": "1. Node JS > 18.0\r 2. WhatsApp.JS\r 3. Qrcode\r 4. Axios",
+  "main": "index.js",
+  "scripts": {
+   "start": "node ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.25.0"
+  }
+}
